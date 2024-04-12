@@ -1,7 +1,3 @@
-// Nama : Fendy Wijaya
-// NIM : 2602092150
-// Assignment I - Array 2D
-
 #include <stdio.h>
 
 void display_board(char board[3][3]){
