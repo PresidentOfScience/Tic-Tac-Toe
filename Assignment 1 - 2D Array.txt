@@ -1,0 +1,72 @@
+QUESTION 1
+
+Implements a 2D array to create a simple tic-tac-toe, where two players
+take turns placing their symbols ('X' or 'O') on a 3x3 grid.
+
+The game ends when one of players has three symbols in a row (horizontally,
+vertically, or diagonally) or when all spaces on the board are filled.
+
+Example:
+
+X's turn:
+
+1|2|3
+-+-+-
+4|5|6
+-+-+-
+7|8|9
+
+Enter your move (1-9): 5
+
+
+O's turn:
+
+1|2|3
+-+-+-
+4|X|6
+-+-+-
+7|8|9
+
+Enter your move (1-9): 2
+
+
+X's turn:
+
+1|O|3
+-+-+-
+4|X|6
+-+-+-
+7|8|9
+
+Enter your move (1-9): 4
+
+
+O's turn:
+
+1|O|3
+-+-+-
+X|X|6
+-+-+-
+7|8|9
+
+Enter your move (1-9): 3
+
+
+X's turn:
+
+1|O|O
+-+-+-
+X|X|6
+-+-+-
+7|8|9
+
+Enter your move (1-9): 6
+
+
+X wins!
+
+1|O|O
+-+-+-
+X|X|X
+-+-+-
+7|8|9
